@@ -9,14 +9,15 @@ class CommentList extends Comment {
 			return (
 				<Comment author={ comment.author } key={ comment.id}>
 				{ comment.text }
+				</Comment>
 			)
 		})
 		return (
- <div style={ style.commentList }>
- { commentNodes }
- </div>
- );
- }
+			<div style={ style.commentList }>
+			{ commentNodes }
+			</div>
+			)
+	}
 }
 
 export default CommentList;

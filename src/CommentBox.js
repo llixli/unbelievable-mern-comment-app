@@ -4,7 +4,7 @@ import CommentForm from './CommentForm';
 import DATA from './data';
 import style from './style';
 
-class CommetBox extends Component {
+class CommentBox extends Component {
 	constructor(props) {
 		super(props);
 		this.state = { data: [] };
